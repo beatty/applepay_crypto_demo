@@ -8,7 +8,7 @@ IMPORTANT:
  - If you do it yourself, you should never use this code in production! Merchant EC private keys should be generated and remain permanently in an HSM.
  - Didn't implement Apple signature validation yet.
 
-This program turns turns this:
+This program turns the 'data' element from this JSON (which comes from the PassKit API): 
 
 ```
 {
