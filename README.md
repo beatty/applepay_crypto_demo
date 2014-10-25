@@ -3,6 +3,8 @@ applepay_crypto_demo
 
 Basic demo-quality implementation of Apple Pay In-App payment crypto, as described at https://developer.apple.com/library/ios/Documentation/PassKit/Reference/PaymentTokenJSON/PaymentTokenJSON.html
 
+_If you like this kind of stuff, come work at Clover (https://www.clover.com/). Fork this repo and do something useful._
+
 Here's the process to play:
  - Create your own ECDSA keypair and generate the CSR (using Keychain)
  - Send the CSR to Apple and get save the resulting .cer file
@@ -45,4 +47,3 @@ Into this (redacted for my security):
 }
 ```
 
-_If you like this kind of stuff, come work at Clover (https://www.clover.com/). Fork this repo and do something useful._
