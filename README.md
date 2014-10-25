@@ -1,7 +1,14 @@
 applepay_crypto_demo
 ====================
 
-Basic demo-quality implementation of Apple Pay crypto, as described at https://developer.apple.com/library/ios/Documentation/PassKit/Reference/PaymentTokenJSON/PaymentTokenJSON.html
+Basic demo-quality implementation of Apple Pay In-App payment crypto, as described at https://developer.apple.com/library/ios/Documentation/PassKit/Reference/PaymentTokenJSON/PaymentTokenJSON.html
+
+Here's the process to play:
+ - Create your own ECDSA keypair and generate the CSR (using Keychain)
+ - Send the CSR to Apple and get save the resulting .cer file
+ - Write an iOS app that uses PassKit APIs that logs the result of putting up the Apple Pay sheet and save this in a .json file.
+ - Export your private key from Keychain as a .p12 file protected with the password "test" 
+ - Feed the .json file, the .cer file, and the .p12 file into this program
 
 IMPORTANT:
  - You should probably use a processor/gateway that does this for you.
