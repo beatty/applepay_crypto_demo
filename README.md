@@ -44,3 +44,5 @@ Into this (redacted for my security):
     "transactionAmount": 100
 }
 ```
+
+_If you like this kind of stuff, come work at Clover (https://www.clover.com/). Fork this repo and do something useful._
