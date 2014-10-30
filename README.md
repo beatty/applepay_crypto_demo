@@ -8,7 +8,7 @@ _If you like this kind of stuff, come work at Clover (https://www.clover.com/). 
 Here's the process to play:
  - Create your own ECDSA keypair and generate the CSR (using Keychain)
  - Send the CSR to Apple and get save the resulting .cer file
- - Write an iOS app that uses PassKit APIs that logs the result of putting up the Apple Pay sheet and save this in a .json file.
+ - Write an iOS app that uses PassKit APIs that logs the result of putting up the Apple Pay sheet and save this in a .json file. Recommended: https://github.com/michael-quinlan/swift_basic_apple_pay 
  - Export your private key from Keychain as a .p12 file protected with the password "test" 
  - Feed the .json file, the .cer file, and the .p12 file into this program
 
